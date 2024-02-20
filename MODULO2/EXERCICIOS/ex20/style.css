@@ -1,0 +1,14 @@
+@charset "UTF-8"
+
+#Segundo > p {
+    display: none;
+}
+
+#Segundo:hover >p {
+    display:block;
+    color:red
+}
+
+#Segundo {
+    border:1px red
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+    background-image: linear-gradient(to left, #3D5A73, #455559);
+    font-family: arial;
+    
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: whitesmoke
+}
+p {
+    color: cornsilk;
+    text-indent: 10px;
+}
+#principal {
+    color:aqua; text-align: center;
+}
+.diferente {
+    background-color: rgba(127, 255, 212, 0.164);
+    font-style: italic;
+}
+.pares {
+    color: rgb(66, 66, 250);
+    
+}
+.impar {
+    background-color: rgba(255, 228, 196, 0.116);
+    text-align: right;
+}

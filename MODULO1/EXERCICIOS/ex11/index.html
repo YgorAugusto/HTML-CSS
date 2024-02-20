@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+    <link rel="shortcut icon" href="htmlico.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Essa imagem se adapta ao tamanho da sua tela:</h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem">
+    </picture>
+
+    <h1>Repodruzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML. <br> Forma mais simples:</p>
+    <audio src="midia/cyberpunk-2077-never-fade-away-by-samurai-refused.mp3" controls></audio> <!-- MP3 WAV OGG Formatos de áudios para garantir que todo navegador funcione-->
+    <p>Forma mais complicada, mas que garante compatibilidade:</p>
+    <audio preload="metadata" controls>
+        <source src="midia/cyberpunk-2077-never-fade-away-by-samurai-refused.mp3" type="audio/mpeg">
+        <source src="urlogg" type="audio/ogg">
+        <source src="urlwav" type="audio/wav">
+    </audio>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <video controls poster="midia/thumb.png">
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.webm" type="video/webm">
+    </video>
+<h1>Hospedados em outros servidores</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AN1RJF55NXI?si=sdM0E1jRp9RT6WCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

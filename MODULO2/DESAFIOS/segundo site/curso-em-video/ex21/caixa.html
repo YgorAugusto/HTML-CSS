@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        header{
+            background-color: turquoise;
+            width: 500px;
+            padding: 5px;
+            border: 2px solid black;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.459);
+            border-radius: 10px;
+            
+        }
+        h1 {
+            width: 200px;
+        }
+        nav {
+            width: 210px;
+            background-color: aquamarine;
+
+        }
+        main {
+            background-color: white;
+            box-shadow: inset 1px 1px 1px 1px rgb(0, 0, 0);
+            border-radius: 15px;
+        }
+        #produtos {
+            background-color: lightcoral;
+            margin-bottom: 0px;
+            border-radius: 15px;
+        }
+
+        #totens {
+            margin-left: 500px;
+        }
+
+        #software {
+            margin-bottom: 0px;
+        }
+
+        #clientes {
+            background-color: aquamarine;
+            margin-top: 0px;
+        }
+        footer {
+            border:1px solid black;
+            background-color: rgb(39, 39, 39);
+            color: rgba(245, 245, 245, 0.37)
+        }
+
+        footer > p > a {
+            color:aliceblue;
+            text-decoration: none;
+        }
+
+        footer > p > a:hover {
+            color:rgb(51, 121, 51)
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu Site</h1>
+                <nav>
+                    <a href="#">Link1</a>
+                    <a href="#">Link2</a>
+                    <a href="#">Link3</a>
+                    <a href="#">Link4</a>
+                    <a href="#">Link5</a>
+                </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+                <ul id="totens">
+                    <p>Totens</p>
+                    <li><a href="#">Totem sup</a></li>
+                    <li><a href="#">Totem standard</a></li>
+                    <li><a href="#">Totem plus</a></li>
+                </ul id=autopagamento>
+                <ul>
+                    <p>Autopagamento</p>
+                    <li><a href="#">Autopagamento Standard</a></li>
+                    <li><a href="#">Autopagamento Plus</a></li>
+                </ul>
+                <ul id="software">
+                    <p>Softwares</p>
+                    <li><a href="#">Servidor</a></li>
+                    <li><a href="#">Caixa</a></li>
+                    <li><a href="#">Caixa Autopagamento</a></li>
+                    <li><a href="#">Selos</a></li>
+                </ul>
+            </section>
+        <section id="clientes">
+            <ul>
+                <p>Clientes mais antigos</p>
+                <li><a href="#">ETE FMC</a></li>
+                <li><a href="#">CEASA NATAL</a></li>
+                <li><a href="#">STOP PARK</a></li>
+            </ul>
+
+        </section>
+
+    </main>
+
+     <footer>
+        <p>
+            Desenvolvimento por: Ygor Augusto dos Santos <br> <a href="#">LinkedIn</a>
+            <br>
+            Contato (aprender a colocar api do zipzop)
+        </p>
+     </footer>
+</body>
+</html>
